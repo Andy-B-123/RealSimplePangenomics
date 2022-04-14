@@ -67,3 +67,8 @@ The '.processed.geneLevel.csv' file contains the exons coverages collapsed to th
 The processed files can be merged from multiple files for analyis in R or other programs. Just take the relevant column from each sample and paste them together. This can ONLY be done if you have used the same annotation file for each sample. If you have used different annotation files the order will be different and you will need to do a more complex merge!  
 
 
+### Specific for users
+If using this on the CSIRO HPC system (eg. Petrichor) please load the latest python module:<br />
+`module load python/3.9.4`<br />
+
+
