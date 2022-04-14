@@ -26,16 +26,16 @@ but these are mostly standard.
 
 ### Usage
 A typical command line looks like this:
-
-`python3 RealSimplePangenome_v1.2.Single.py \
+```
+python3 RealSimplePangenome_v1.2.Single.py \
 --input_bam <path/to/input.bam> \
 --input_annotation <path/to/input.gff> \
 --delim [either ' ' or '=' in case of gtf or gff] \
 --feature exon \
 --annot_gene_str <eg. gene_id> \
 --annot_transcript_str <eg transcript_id> \
-  --output_filepath ./`
-  
+  --output_filepath ./
+```
 #### From top to bottom:
 
 --input_bam      is expected to be sorted and indexed.
