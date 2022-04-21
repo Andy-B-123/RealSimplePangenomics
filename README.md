@@ -8,6 +8,8 @@ Each sample is expected to be aligned to the same reference and is expected to b
 The reference is required to have an annotation of genes, including exon and transcript descriptors.
 The script runs on a single thread per and for even very large files (Mouse alignment, sorted BAM > 60GB, over 100,000 features) takes a max of 30 minutes.
 
+![Image](RSP_Figure.png)
+
 ### Requirements
 The script requires three non-standard Python3 libraries - pysam, icecream and tqdm
 Please install these locally:
